@@ -30,6 +30,8 @@ RUN \
         sbc \
         python3 \
         py3-pip \
+        mpv-libs \ 
+        mpv \
     && apk add --no-cache --virtual .build-deps \
         meson \
         build-base \
