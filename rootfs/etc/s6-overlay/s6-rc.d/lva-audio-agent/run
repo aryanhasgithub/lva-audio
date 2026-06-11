@@ -1,0 +1,8 @@
+#!/usr/bin/with-contenv bashio
+# ==============================================================================
+# Start LVA audio agent small HTTP server on /run/lva/audio/agent.sock
+# Used by lva-supervisor API to query available audio devices
+# ==============================================================================
+
+cd /usr/src/lva-audio
+exec python3 -m agent.main

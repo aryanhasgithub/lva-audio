@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Check if local pulseaudio socket exists yet
+test -S /run/lva/audio/pulse/native
